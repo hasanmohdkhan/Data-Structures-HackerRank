@@ -39,9 +39,7 @@ public class SparseArrays
        
        System.out.println("mSearchArrayList: " +mSearchArrayList);
        
-       //Iterator itr =mSearchArrayList.iterator();
-       //while(itr.hasNext()){
-           //search keyword to search
+       
            int count=0;
            for(String key:mSearchArrayList) 
               {
@@ -54,10 +52,10 @@ public class SparseArrays
                  
               }
                 
-              System.out.println("count: "+count); 
+              System.out.println("KeyWord: "+key+" count: "+count); 
               count=0;
               }  
        
-         // }
+        
 }
 }
